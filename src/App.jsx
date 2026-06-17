@@ -12,10 +12,6 @@ const notes = [
     text: '기획, 구현, 테스트를 한 사람이 직접 다루며 작은 범위부터 완성도를 쌓고 있습니다.',
   },
   {
-    title: '던전 테마',
-    text: '석조 던전과 보물 상자의 분위기를 중심으로 게임의 첫인상을 만들고 있습니다.',
-  },
-  {
     title: '개발 중',
     text: '공개 가능한 정보와 빌드가 준비되는 대로 이 페이지를 통해 업데이트할 예정입니다.',
   },
@@ -86,37 +82,6 @@ function App() {
           ))}
         </section>
 
-        <section className="section team-section" id="team" aria-labelledby="team-title">
-          <div>
-            <p className="eyebrow">Team</p>
-            <h2 id="team-title">블루스카이 게임즈</h2>
-          </div>
-          <div className="team-copy">
-            <p>
-              블루스카이 게임즈는 김청호가 운영하는 1인 개발팀입니다. 작은 팀의 속도로
-              직접 만들고, 확인하고, 고쳐 나가며 게임을 완성해 가고 있습니다.
-            </p>
-            <dl className="profile-list">
-              <div>
-                <dt>팀원</dt>
-                <dd>김청호</dd>
-              </div>
-              <div>
-                <dt>역할</dt>
-                <dd>기획 및 개발</dd>
-              </div>
-            </dl>
-          </div>
-        </section>
-
-        <section className="section contact-section" id="contact" aria-labelledby="contact-title">
-          <p className="eyebrow">Updates</p>
-          <h2 id="contact-title">소식은 이곳에 정리됩니다</h2>
-          <p>
-            잭팟 던전의 새 스크린샷, 공개 일정, 테스트 안내가 준비되면 이 홈페이지에
-            순차적으로 추가할 예정입니다.
-          </p>
-        </section>
       </main>
 
       <footer className="site-footer">
